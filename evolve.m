@@ -5,7 +5,7 @@ determine_evolution_character
 
 UserData.character=character;
 
-load_character;
+load_character_from_matfile;
 if ~strcmp(UserData.character,'Babytchi')
     
     wavplay(UserData.evolve_sound,UserData.Fs,'async');

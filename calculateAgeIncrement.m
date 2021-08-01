@@ -6,7 +6,7 @@ end
 
 age_increment=0;
 while etime(opening_date,closing_date)>=24*3600
-    disp('plus d''un jour est passé')
+    disp('plus d''un jour est passÃ©')
     closing_date=datevec(addtodate(datenum(closing_date),1,'day'));
     age_increment=age_increment+1;
 end

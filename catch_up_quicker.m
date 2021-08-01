@@ -10,8 +10,8 @@ TSS=UserData.time_since_sick;
 TSND=UserData.time_since_needs_discipline;
 TSLP=UserData.time_since_last_pooped;
 TSLDC=UserData.time_since_last_discipline_call;
-%%%Il faut mettre à jour time since hungry et time since unhappy pour que
-%%%l'icône attention s'éteigne
+%%%Il faut mettre Ã  jour time since hungry et time since unhappy pour que
+%%%l'icÃ´ne attention s'Ã©teigne
 TSH = UserData.time_since_hungry;
 TSU = UserData.time_since_unhappy;
 
@@ -77,7 +77,7 @@ for k=1:size(eventsList,1)
         end
     end
     
-    %Application de l'événement
+    %Application de l'Ã©vÃ©nement
     if strcmp(eventsList{k,1},'HgHL')
         %disp('Hunger heart loss')
         HgH=HgH-1;
@@ -202,7 +202,7 @@ UserData.is_alive=is_alive;
 UserData.sick=sick;
 UserData.character=character;
 UserData.egg=egg;
-load_character;
+load_character_from_matfile;
 UserData.needs_discipline=needsDiscipline;
 UserData.lights_on=lightsOn;
 UserData.t = TUO;

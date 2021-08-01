@@ -56,7 +56,7 @@ for k=1:size(eventsList,1)
     end
     %{'HgHL','HpHL','DFHg','DFB','CMFHg','CMFB','Poop','DFS','Sickness','CMFP',...
     %    'CMFS','DC','CMFD','Sleep','WakeUp','LCM','DFOA','Evolution'};
-    %Application de l'événement
+    %Application de l'Ã©vÃ©nement
     if strcmp(eventsList{k,1},'HgHL')
         HgH=HgH-1;
         TSHgC=0;
